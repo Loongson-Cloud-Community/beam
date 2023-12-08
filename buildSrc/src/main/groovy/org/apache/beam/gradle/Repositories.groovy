@@ -36,6 +36,8 @@ class Repositories {
         return
       }
 
+      // maven { url "https://maven.loongnix.cn/loongarchabi1/maven/" }
+      maven { url "http://10.40.46.150:8080/controlled-1/" }
       mavenCentral()
       mavenLocal()
       jcenter()
